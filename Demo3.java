@@ -6,17 +6,7 @@ package com.wang.thread;
  */
 public class Demo3 {
 
-	/**
-	 * 线程休眠。 单线程休眠。
-	 */
-	public void myThread1() {
-		// 任务
-		MyTask1 task1 = new MyTask1();
-		MyTask2 task2 = new MyTask2();
-		// 调用
-		task1.run();
-		task2.run();
-	}
+
 
 	/**
 	 * 线程休眠。 多线程切换。
